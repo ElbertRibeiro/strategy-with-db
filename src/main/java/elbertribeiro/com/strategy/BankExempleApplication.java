@@ -1,4 +1,4 @@
-package elbertribeiro.com.bankexemple;
+package elbertribeiro.com.strategy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

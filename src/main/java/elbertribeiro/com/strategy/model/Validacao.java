@@ -1,20 +1,16 @@
-package elbertribeiro.com.bankexemple.cartao;
+package elbertribeiro.com.strategy.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(schema = "EXEMPLO", name = "TAB_CARTAO")
+@Table(schema = "EXEMPLO", name = "TAB_VALIDACAO")
 @Getter
 @Setter
-public class Cartao {
+public class Validacao {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
     private Integer id;
-
-    @Column(name = "TIPO_CARTAO", columnDefinition = "VARCHAR")
-    private String tipoCartao;
-
 }
