@@ -2,7 +2,6 @@ package elbertribeiro.com.event;
 
 import elbertribeiro.com.dto.ContaCorrenteDTO;
 import elbertribeiro.com.dto.DebitoRequest;
-import elbertribeiro.com.model.Debito;
 import elbertribeiro.com.service.DebitoServico;
 import elbertribeiro.com.strategy.DebitoStrategy;
 import lombok.AllArgsConstructor;
@@ -36,7 +35,7 @@ public class DebitoAinf implements DebitoStrategy {
     }
 
     @Override
-    public Debito obtemTipoContaCorrente() {
+    public String obtemTipoContaCorrente() {
         return debitoServico.validaDebito(1);
     }
 }
