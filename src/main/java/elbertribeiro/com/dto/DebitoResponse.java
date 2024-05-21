@@ -9,5 +9,4 @@ import lombok.Getter;
 public class DebitoResponse {
     @JsonProperty("msg_retorno")
     private final String mensagemRetorno;
-    private final String numCorrelativo;
 }

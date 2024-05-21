@@ -10,5 +10,5 @@ public class DebitoRequest {
 
     @NotNull
     private Integer idDebito;
-    private Long idContribuinte;
+    private Long idCliente;
 }

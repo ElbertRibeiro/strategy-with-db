@@ -4,7 +4,7 @@ package elbertribeiro.com.strategy;
 import elbertribeiro.com.dto.DebitoRequest;
 
 public interface DebitoStrategy {
-    void calculaMulta(DebitoRequest request);
+    void calculaJuros(DebitoRequest request);
 
-    String obtemTipoContaCorrente();
+    String obtemTipoDebito();
 }
