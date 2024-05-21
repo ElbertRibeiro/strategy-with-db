@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>elbertribeiro.com</groupId>
-    <artifactId>bank-exemple</artifactId>
+    <artifactId>strategy-with-db</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>bank-exemple</name>
-    <description>bank-exemple</description>
+    <name>strategy-with-db</name>
+    <description>POC using strategy pattern with database</description>
     <properties>
         <java.version>17</java.version>
     </properties>
