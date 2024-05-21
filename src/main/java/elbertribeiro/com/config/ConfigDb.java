@@ -1,16 +1,12 @@
-package elbertribeiro.com.strategy.config;
+package elbertribeiro.com.config;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
 import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
 import javax.sql.DataSource;
 
-@EnableJpaRepositories("elbertribeiro.com.strategy.dao")
-@EntityScan("elbertribeiro.com.strategy.model")
 @Configuration
 public class ConfigDb {
     @Bean
